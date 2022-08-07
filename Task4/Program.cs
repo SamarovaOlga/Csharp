@@ -5,5 +5,21 @@
 22 3 9 -> 22
 */
 
+{
 Console.WriteLine("Введите три числа");
-int a = 
+int a = int.Parse(Console.ReadLine());
+int b = int.Parse(Console.ReadLine());
+int c = int.Parse(Console.ReadLine());
+
+int max = 0;
+
+if (a >=b && a >= c)
+    max = a;
+else if (b >=a && b >= c)   
+    max = b;
+else if (c >=a && c >= b)
+    max = c;
+
+    Console.WriteLine("Максимальное число {0}", max);
+    Console.ReadLine();
+}           
