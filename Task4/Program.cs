@@ -5,7 +5,7 @@
 22 3 9 -> 22
 */
 
-{
+
 Console.WriteLine("Введите три числа");
 int a = int.Parse(Console.ReadLine());
 int b = int.Parse(Console.ReadLine());
@@ -22,4 +22,4 @@ else if (c >=a && c >= b)
 
     Console.WriteLine("Максимальное число {0}", max);
     Console.ReadLine();
-}           
+           
